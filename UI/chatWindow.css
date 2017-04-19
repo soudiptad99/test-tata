@@ -534,8 +534,8 @@ ul.chat-container li.fromOtherUsers.with-icon .extra-info{
 }
 .buttonTmplContent .buttonTmplContentHeading{
 	text-align: left;
-	color: #D7DE36;
-	background: #F0F0F0;
+	color: #333;
+	background: #1268b3;
 	margin:0!important;
 	padding: 10px;
 	border-top-left-radius: 10px;
