@@ -1029,26 +1029,7 @@ function koreBotChat() {
             	{{else}} \
 				<div class="chatInputBox" contenteditable="true" placeholder="${botMessages.message}"></div> \
             	{{/if}} \
-			<div class="attachment"></div> \
-            <div class="sdkFooterIcon microphoneBtn"> \
-                <button class="notRecordingMicrophone"> \
-                    <i class="fa fa-microphone fa-lg"></i> \
-                </button> \
-                <button class="recordingMicrophone"> \
-                    <i class="fa fa-microphone fa-lg"></i> \
-                    <span class="recordingGif"></span> \
-                </button> \
-                <div id="textFromServer"></div> \
-            </div> \
-            <div class="sdkFooterIcon"> \
-                <button class="sdkAttachment attachmentBtn"> \
-                    <i class="fa fa fa-paperclip"></i> \
-                </button> \
-                <input type="file" name="Attachment" class="filety" id="captureAttachmnts"> \
-            </div> \
-			<div class="chatSendMsg">Press enter to send</div> \
-		</div>';
-
+			
         var chatWindowTemplate = '<script id="chat_window_tmpl" type="text/x-jqury-tmpl"> \
 			<div class="kore-chat-window"> \
                                 <div class="minimized-title"></div> \
