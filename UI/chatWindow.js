@@ -1040,7 +1040,7 @@ function koreBotChat() {
                 </button> \
                 <div id="textFromServer"></div> \
             </div> \
-            <div class="sdkFooterIcon" style="display: none;"> \
+            <div class="sdkFooterIcon" style="visibility: hidden;"> \
                 <button class="sdkAttachment attachmentBtn"> \
                     <i class="fa fa fa-paperclip"></i> \
                 </button> \
