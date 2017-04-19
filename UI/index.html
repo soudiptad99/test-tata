@@ -31,7 +31,6 @@
 				function assertion(options, callback) {
 					var jsonData = {
 						"clientId": botOptions.clientId,
-						"clientSecret": "AQPU0Bu3LPQFgHYeZnaHbIsPjt2NF4xkaRHxqVkNOY4=",
 						"identity": botOptions.userIdentity,
 						"aud": "https://idproxy.kore.com/authorize",
 						"isAnonymous": true
@@ -66,8 +65,8 @@
 				botOptions.recorderWorkerPath = '../libs/recorderWorker.js';
 				botOptions.assertionFn = assertion;
 				botOptions.koreAnonymousFn = koreAnonymousFn;
-				botOptions.clientId   = "cs-1d13cae6-c81b-57d9-a689-2b78c53a2692"; // secure client-id
-				botOptions.botInfo = {name:"Tata Capital Chat Smart","_id":"st-2b2a1d28-db2e-5273-8b4c-875ca60a684d"}; // bot name is case sensitive
+				botOptions.clientId   = "cs-d60fa6dd-68de-53b5-8a75-81ce55811c36"; // secure client-id
+				botOptions.botInfo = {name:"Tata Capital Chat Smart","_id":"st-6ca19cf3-bb18-53d8-94c3-d3735a0c0d85"}; // bot name is case sensitive
 				
 				var chatConfig={
 					botOptions:botOptions,
