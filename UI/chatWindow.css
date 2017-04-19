@@ -149,7 +149,7 @@
     background-size: cover;
 }
 .kore-chat-window  .kore-chat-header {
-    border-bottom:1px solid #EEEEEE;
+    border-bottom:1px solid #1268b3;
     color: #222;
     font-size: 16px;
     background-color: white;
@@ -184,7 +184,7 @@
 }
 .kore-chat-header .chat-box-controls button{
     cursor: pointer;
-    color: #AAAAAA;
+    color: white;
     background: none;
     border: none;
     opacity: 1;
@@ -307,7 +307,7 @@ ul.chat-container li.fromCurrentUser .messageBubble{
     padding: 12px 15px;
     max-width: 70%;
     font-size: 16px;
-    background-color: #009DAB;
+    background-color: #1268b3;
     color: white;
     border-radius: 12px;
     border-bottom-right-radius: 2px;
@@ -342,7 +342,7 @@ ul.chat-container li.fromCurrentUser .messageBubble .message-status.recieved{
 }
 ul.chat-container li.fromOtherUsers .messageBubble{
     float:left;
-    background-color: #F1F0F0;
+    background-color: #D7DE36;
     color:#333;
     border-radius: 12px;
     border-bottom-left-radius: 2px;
