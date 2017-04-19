@@ -41,6 +41,7 @@ router.post('/', function(req, res) {
     "isAnonymous": isAnonymous
   };
         var token = jwt.sign(options, clientSecret);
+	res.setHeader("Access-Control-Allow-Origin","*");
   res.send({"jwt":token,"status":"success"});
 });
 
