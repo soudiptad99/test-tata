@@ -150,7 +150,7 @@
 }
 .kore-chat-window  .kore-chat-header {
     border-bottom:1px solid #1268b3;
-    color: #222;
+    color: white;
     font-size: 16px;
     background-color:#1268b3;
     font-family: arial,sans-serif;
@@ -534,7 +534,7 @@ ul.chat-container li.fromOtherUsers.with-icon .extra-info{
 }
 .buttonTmplContent .buttonTmplContentHeading{
 	text-align: left;
-	color: #2A2A2A;
+	color: #D7DE36;
 	background: #F0F0F0;
 	margin:0!important;
 	padding: 10px;
