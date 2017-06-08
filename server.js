@@ -27,7 +27,7 @@ var router = express.Router();              // get an instance of the express Ro
 router.post('/', function(req, res) {
   var identity = uuidV1();
   var clientId = req.body.clientId;
-  var clientSecret ="aIVqGsxUUEIiQdO8wac0LXCagnJmH4Ww6POsPLrTGTA=";
+  var clientSecret ="Ss1QuFG6M0P4R+f0cxXLrai9rNk3T6Gt2k/SdQ2t9LU=";
 
   var isAnonymous = req.body.isAnonymous || false;
   var aud = req.body.aud || "https://idproxy.kore.com/authorize";
